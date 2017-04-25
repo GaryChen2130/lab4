@@ -1,0 +1,23 @@
+Question A:
+
+0000000000400555 T main
+000000000040052d T _Z7averageif
+00000000004004ed T _Z7averagePdRd
+
+
+Question B:
+
+The output is:
+
+1 8
+4 8
+4 8
+8 8
+
+explanation:
+
+The first column of output is '1 4 4 8' since the size of char,int,float,double variables
+are 1,4,4,8 bytes.The second column is '8 8 8 8' since the memory address is stored as 8 bytes
+in 32-bits system.
+
+
